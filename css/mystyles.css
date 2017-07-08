@@ -1,0 +1,125 @@
+body
+		{
+			cursor: default;
+		}
+		.price-dp
+		{
+			font-size:14px;
+			text-align: center;
+		}
+		.price-number
+		{
+			font-size: 20px;
+			font-weight: bold;
+			color :#F75213;
+		}
+		a
+		{
+			color: #005580;		
+		}
+		a:hover 
+		{
+			color: #002E46;
+		}
+		.breadcrumb a
+		{
+			color: rgb(231,109,36);
+			font-weight: bold;
+			font-size: 18px;
+		}
+		.breadcrumb a:hover
+		{
+			color : rgb(189, 94, 37);
+		}
+		.breadcrumb .divider
+		{
+			font-size: 20px;
+		}
+		.breadcrumb .active a
+		{
+			color: #999;
+			font-size: 14px;
+			font-weight: normal;
+			cursor: default;
+		}
+		.breadcrumb .active a:hover
+		{
+			color: #999;
+			text-decoration: none;
+		}
+		.tab-content
+		{
+			overflow: hidden;
+			width : 102%;
+		}
+		.row
+		{
+			position: relative;
+		}
+		.thumbnails li *
+		{
+			-webkit-transition: all 1s ease;
+			-moz-transition-duration: all 1s  ease;
+			-ms-transition-duration: all 1s  ease;
+			-o-transition-duration: all 1s  ease;			
+		}
+		.thumbnails li
+		{
+			min-height: 350px;
+		}
+		.cart-table
+		{
+		/*	border-color: #eee; */
+			font-size: 12px;
+			width : 90%;
+			text-align: center;
+			white-space: normal;
+			border-collapse: separate;			
+			line-height: 15px;
+		}
+		.cart-table th
+		{
+			padding : 2px;
+			font-weight: bolder;
+			font-size: 13px;
+			color :rgb(141, 65, 23);
+		}
+		.cart-table td
+		{
+			font-weight: bold;
+			padding : 2px;
+			color : #3d3d3d;
+			font-size: 12px;
+		}
+		.cart-table tbody tr:last-child
+		{
+			display: none;
+		}
+		#cart-info table
+		{
+			text-align: right;
+			width: 85%;
+			color :rgb(141, 65, 23);			
+			font-weight: bold;
+			margin: 10px 0px;
+		}
+		#cart-info table th
+		{
+			width: 70%;
+		}
+		#cart-info table td
+		{
+			font-weight: bolder;
+			font-size: 18px;
+			color :#005580;
+			float:right;
+		}
+		#productList-cart
+		{
+			max-height: 350px;
+			overflow: auto;
+		}
+		.dntDisplay
+		{
+			display: none !important;
+		}
